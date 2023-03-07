@@ -25,12 +25,18 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background-color: #F6F6F6F6;
+}
+input {
+  border-style: none;
+  width: 200px;
+}
+button {
+  border-style:none;
+}
+.shadow {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.03);
 }
 </style>
